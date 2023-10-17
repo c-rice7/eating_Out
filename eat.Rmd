@@ -42,6 +42,8 @@ barchartGC(~race + eatout,data=mydata, type="percent")
 
 ```
 
+There is a notable difference between the rates at which the white and other race(s) eat out based on the percentage graphical data. However it can be seen from the non-percentage data that the sample size of the non-white race(s) are significantly smaller than that of the white race.
+
 ```{r}
 table1 <- xtabs(~race + eatout, data=mydata)
 rowPerc(table1)
@@ -51,6 +53,8 @@ colPerc(table1)
 ```{r}
 fisherXY(mydata$race,mydata$eatout, printAll = TRUE)
 ```
+
+## Discussion and Conclusion
 
 
 
