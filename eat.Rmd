@@ -56,7 +56,7 @@ The numerical data results confirm what is seen in the graphical data, there is 
 fisherXY(mydata$race,mydata$eatout, printAll = TRUE)
 ```
 
-The p-values in the fisher.xy inferential
+The p-values in the fisherXY inferential test show a slightly different result than the numerical or graphical data. The large p-value(0.2815) and the 95% confidence interval including 1 in the comparison between the black and other race(s) shows that the difference shown between them in the numerical and graphical data is superficial and does not represent a significant difference in actuality. The inferential data does however confirm the difference between the black and white races with the p-value of their comparison (0.0003864) and the confidence interval not including 1 allows for the rejection of the Null hypothesis for this comparison. The graphical and numerical data were also a somewhat accurate representation of the comparison between the white and other race(s) with the similarities seen in both being confirmed by the relatively large p-value (0.3543) and their comparisons 95% confidence interval including 1 which indicates the Null hypothesis can be accepted for this comparison.
 
 ## Discussion and Conclusion
 
