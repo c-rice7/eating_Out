@@ -60,5 +60,5 @@ The p-values in the fisherXY inferential test show a slightly different result t
 
 ## Discussion and Conclusion
 
-
+The process of downloading and importing the GSS data set from NORC was a bit un-intuitive, particularly the recent change in the way STATA files are read into the r-program. The graphical and numerical data presented a poor overall analysis of the data, likely due to the massively larger sample size of the white race versus the other two races, even when combined. The inferential analysis of the data shows the differences shown in the numerical and graphical data between the black and other race(s) is superficial and not an actually significant difference.
 
