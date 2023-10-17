@@ -50,9 +50,13 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
+The numerical data results confirm what is seen in the graphical data, there is a large percent(<10%) between the rates at which the black and the white/other race(s) eat out. However the large percent of the total people who either do or do not eat out being white confirms that the white race sample size is massively larger than the other two race(s).
+
 ```{r}
 fisherXY(mydata$race,mydata$eatout, printAll = TRUE)
 ```
+
+The p-values in the fisher.xy inferential
 
 ## Discussion and Conclusion
 
