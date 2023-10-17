@@ -48,7 +48,9 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-
+```{r}
+fisherXY(mydata$race,mydata$eatout, printAll = TRUE)
+```
 
 
 
